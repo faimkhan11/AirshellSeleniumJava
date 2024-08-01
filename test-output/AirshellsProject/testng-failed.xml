@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [AirshellsProject]">
+  <test thread-count="5" name="EcommerceWebsite Test(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.Airshell.testCases.TC_01_VerifyUserIsAbleToLoginToWebsite">
+        <methods>
+          <include name="login"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.Airshell.testCases.TC_01_VerifyUserIsAbleToLoginToWebsite -->
+    </classes>
+  </test> <!-- EcommerceWebsite Test(failed) -->
+</suite> <!-- Failed suite [AirshellsProject] -->
