@@ -6,20 +6,13 @@
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="com.Airshell.testCases.TC_02_VerifyUserIsAbleToAddProductToCartTest">
+      <class name="com.Airshell.testCases.TC_03_VerifyUserIsAbleToCheckoutProductFromCart">
         <methods>
-          <include name="setup"/>
-          <include name="tearDown"/>
-          <include name="buyproduct"/>
-        </methods>
-      </class> <!-- com.Airshell.testCases.TC_02_VerifyUserIsAbleToAddProductToCartTest -->
-      <class name="com.Airshell.testCases.TC_01_VerifyUserIsAbleToLoginToWebsite">
-        <methods>
-          <include name="login"/>
+          <include name="checkout"/>
           <include name="setup"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- com.Airshell.testCases.TC_01_VerifyUserIsAbleToLoginToWebsite -->
+      </class> <!-- com.Airshell.testCases.TC_03_VerifyUserIsAbleToCheckoutProductFromCart -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -10,8 +10,8 @@
 
   <test thread-count="5" name="Test">
     <classes>
-      <class name="com.Airshell.testCases.TC_01_VerifyUserIsAbleToLoginToWebsite"/>
-      <class name="com.Airshell.testCases.TC_02_VerifyUserIsAbleToAddProductToCartTest"/>
+      
+      <class name="com.Airshell.testCases.TC_06_VerifyUserIsAbleToGetTheOrderIDFromOrderDetailPage"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

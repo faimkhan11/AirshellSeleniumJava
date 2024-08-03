@@ -6,8 +6,6 @@ C:\Aotomation\SeleniumWebDrivers\AirshellsProject\src\test\java\com\Airshell\tes
 C:\Aotomation\SeleniumWebDrivers\AirshellsProject\src\test\java\com\Airshell\testCases\TC_01_VerifyUserIsAbleToLoginToWebsite.java
 C:\Aotomation\SeleniumWebDrivers\AirshellsProject\src\test\java\com\Airshell\testCases\TC_02_VerifyUserIsAbleToAddProductToCartTest.java
 C:\Aotomation\SeleniumWebDrivers\AirshellsProject\src\test\java\com\Airshell\testCases\TC_03_VerifyUserIsAbleToCheckoutProductFromCart.java
-C:\Aotomation\SeleniumWebDrivers\AirshellsProject\src\test\java\com\Airshell\testCases\TC_04_VerifyUserIsAbleToCheckoutProductFromCartDataDrivenTesting.java
-C:\Aotomation\SeleniumWebDrivers\AirshellsProject\src\test\java\com\Airshell\testCases\TC_05_DataDriverTestCase.java
 C:\Aotomation\SeleniumWebDrivers\AirshellsProject\src\test\java\com\Airshell\utilities\ExtentReportClass.java
 C:\Aotomation\SeleniumWebDrivers\AirshellsProject\src\test\java\com\Airshell\utilities\ReadConfig.java
 C:\Aotomation\SeleniumWebDrivers\AirshellsProject\src\test\java\com\Airshell\utilities\ReadExcelFile.java

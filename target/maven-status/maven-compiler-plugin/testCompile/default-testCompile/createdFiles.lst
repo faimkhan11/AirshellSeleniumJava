@@ -1,13 +1,11 @@
 com\Airshell\pageObjects\CartPage.class
+com\Airshell\utilities\ReadConfig.class
+com\Airshell\pageObjects\ProductPage.class
 com\Airshell\pageObjects\HomePage.class
 com\Airshell\utilities\ExtentReportClass.class
 com\Airshell\utilities\ReadExcelFile.class
 com\Airshell\pageObjects\LoginPage.class
 com\Airshell\testCases\BaseClass.class
+com\Airshell\testCases\TC_01_VerifyUserIsAbleToLoginToWebsite.class
 com\Airshell\testCases\TC_03_VerifyUserIsAbleToCheckoutProductFromCart.class
 com\Airshell\testCases\TC_02_VerifyUserIsAbleToAddProductToCartTest.class
-com\Airshell\utilities\ReadConfig.class
-com\Airshell\testCases\TC_04_VerifyUserIsAbleToCheckoutProductFromCartDataDrivenTesting.class
-com\Airshell\pageObjects\ProductPage.class
-com\Airshell\testCases\TC_05_DataDriverTestCase.class
-com\Airshell\testCases\TC_01_VerifyUserIsAbleToLoginToWebsite.class

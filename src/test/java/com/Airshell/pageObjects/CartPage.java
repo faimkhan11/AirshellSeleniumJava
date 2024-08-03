@@ -28,7 +28,7 @@ public class CartPage {
 		}
 		
 		
-		@FindBy (xpath = "//button[normalize-space()='30']")
+		@FindBy (xpath = "//button[normalize-space()='15']")
 		WebElement depdate;
 		
 		public void selectdepdate()

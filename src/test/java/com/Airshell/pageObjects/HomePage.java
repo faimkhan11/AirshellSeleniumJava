@@ -7,24 +7,28 @@ import org.openqa.selenium.support.PageFactory;
 
 public class HomePage {
 	
-	//Constructor for all test cases
+    //Constructor for all test cases
 	
 	WebDriver lriver;
 	
 	public  HomePage(WebDriver rdriver)
     {
-  	  lriver=rdriver;
-  	  PageFactory.initElements(rdriver, this);
-  	  
-    }
+	 lriver=rdriver;
+  	 PageFactory.initElements(rdriver, this);
+  	}
 	
+	
+	//CLick on Alert button
 	@FindBy(id="CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll")
 	WebElement alertBtn;
+	
 	
 	public void clkalertbtn()
 	{
 		alertBtn.click();
+	
 	}
+	
 	
 	
 	@FindBy(linkText = "account_circle")

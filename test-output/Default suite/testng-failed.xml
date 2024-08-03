@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.Airshell.testCases.TC_01_VerifyUserIsAbleToLoginToWebsite">
+      <class name="com.Airshell.testCases.TC_03_VerifyUserIsAbleToCheckoutProductFromCart">
         <methods>
-          <include name="login"/>
+          <include name="checkout"/>
           <include name="setup"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- com.Airshell.testCases.TC_01_VerifyUserIsAbleToLoginToWebsite -->
+      </class> <!-- com.Airshell.testCases.TC_03_VerifyUserIsAbleToCheckoutProductFromCart -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

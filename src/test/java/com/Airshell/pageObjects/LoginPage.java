@@ -42,12 +42,20 @@ public class LoginPage
 	}
 	
 	
-	@FindBy (xpath = "//input[@id='input-password']")
+	@FindBy (xpath = "//*[@type=\"submit\"]")
 	WebElement summitbtn;
 	
 	public void clksummitbtn()
 	{
 		summitbtn.click();
+	}
+	
+	@FindBy (linkText = "account_circle")
+	WebElement myaccount;
+	
+	public void clkmyaccount()
+	{
+		myaccount.click();
 	}
 	
 	

@@ -27,9 +27,8 @@ public class TC_02_VerifyUserIsAbleToAddProductToCartTest extends BaseClass
 		ProductPage pp = new ProductPage(driver);
 		pp.clkbooknowbtn();
 		logger.info("User clicked on Book Now button");
-		Thread.sleep(5000);
-		
-        Assert.assertTrue(true);		
+        
+		Assert.assertTrue(true);		
 		
 	}
 	
