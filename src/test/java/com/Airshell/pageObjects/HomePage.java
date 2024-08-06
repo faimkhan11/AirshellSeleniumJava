@@ -23,9 +23,10 @@ public class HomePage {
 	WebElement alertBtn;
 	
 	
-	public void clkalertbtn()
+	public void clkalertbtn() throws InterruptedException
 	{
 		alertBtn.click();
+		Thread.sleep(2000);
 	
 	}
 	

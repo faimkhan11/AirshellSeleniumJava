@@ -6,7 +6,7 @@ import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import com.Airshell.pageObjects.CartPage;
+import com.Airshell.pageObjects.BookingDetailsPage;
 import com.Airshell.pageObjects.CheckoutPage;
 import com.Airshell.pageObjects.HomePage;
 import com.Airshell.pageObjects.ProductPage;
@@ -38,7 +38,7 @@ public class TC_03_VerifyUserIsAbleToCheckoutProductFromCart extends BaseClass
 		logger.info("Click on BookNow botton");
 		
 		//Departure Calendar
-		CartPage cp = new CartPage(driver);
+		BookingDetailsPage cp = new BookingDetailsPage(driver);
 		cp.clkdepcalender();
 		logger.info("Click on Departure Calender");
 		

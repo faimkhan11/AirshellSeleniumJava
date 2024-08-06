@@ -2,6 +2,7 @@ package com.Airshell.testCases;
 
 import org.testng.annotations.Test;
 
+import com.Airshell.pageObjects.CartPage;
 import com.Airshell.pageObjects.HomePage;
 import com.Airshell.pageObjects.ProductPage;
 
@@ -27,8 +28,25 @@ public class TC_02_VerifyUserIsAbleToAddProductToCartTest extends BaseClass
 		ProductPage pp = new ProductPage(driver);
 		pp.clkbooknowbtn();
 		logger.info("User clicked on Book Now button");
-        
-		Assert.assertTrue(true);		
+		
+		
+		CartPage cp = new CartPage(driver);
+		cp.clkcarticon();
+		logger.info("Click on Cart icon");
+		Thread.sleep(2000);
+		
+		String title=driver.getTitle();
+		if(title.equals("Shopping Cart"))
+		{
+			System.out.println("User is landed to"+ " "+title);
+			
+		}
+		else
+		{
+			logger.info("Test case failed");
+		}
+				
+		
 		
 	}
 	

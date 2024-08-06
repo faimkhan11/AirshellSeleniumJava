@@ -4,15 +4,15 @@
   <listeners>
     <listener class-name="com.Airshell.utilities.ExtentReportClass"/>
   </listeners>
-  <test thread-count="5" name="Test(failed)">
+  <test thread-count="5" name="class name(failed)">
     <classes>
-      <class name="com.Airshell.testCases.TC_03_VerifyUserIsAbleToCheckoutProductFromCart">
+      <class name="com.Airshell.testCases.TC_08_VerifyUserIslandingToOrderConfirmationscreenAfterClickingOnViewOrderConfirmationButton">
         <methods>
-          <include name="checkout"/>
+          <include name="viewconfirmationbtn"/>
           <include name="setup"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- com.Airshell.testCases.TC_03_VerifyUserIsAbleToCheckoutProductFromCart -->
+      </class> <!-- com.Airshell.testCases.TC_08_VerifyUserIslandingToOrderConfirmationscreenAfterClickingOnViewOrderConfirmationButton -->
     </classes>
-  </test> <!-- Test(failed) -->
+  </test> <!-- class name(failed) -->
 </suite> <!-- Failed suite [Suite] -->

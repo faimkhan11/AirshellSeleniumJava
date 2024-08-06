@@ -8,10 +8,19 @@
 
 </listeners>
 
-  <test thread-count="5" name="Test">
+  <test thread-count="5" name="class name">
     <classes>
       
-      <class name="com.Airshell.testCases.TC_06_VerifyUserIsAbleToGetTheOrderIDFromOrderDetailPage"/>
+
+<class name="com.Airshell.testCases.TC_01_VerifyUserIsAbleToLoginToWebsite"/>
+<class name="com.Airshell.testCases.TC_02_VerifyUserIsAbleToAddProductToCartTest"/>
+<class name="com.Airshell.testCases.TC_05_VerifyUserIsAbleToOpenOrderInfoPage"/>
+<class name="com.Airshell.testCases.TC_06_VerifyUserIsAbleToGetTheOrderIDFromOrderDetailPage"/>
+<class name="com.Airshell.testCases.TC_07_VerifUserIsAbleToIncreaseQuantityOfProductFromCartPage"/>
+<class name="com.Airshell.testCases.TC_08_VerifyUserIslandingToOrderConfirmationscreenAfterClickingOnViewOrderConfirmationButton"/>
+
+
+
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

@@ -26,6 +26,36 @@ public class OrderDetailsPage
 		   
 	   }
 	   
+	   @FindBy(xpath = "//*[@class=\"btn btn-info mb1\"]")
+	   WebElement viewbtn;
+	   
+	   public void clkviewbtn()
+	   {
+		   viewbtn.click();
+		   
+	   }
+	   
+	   @FindBy(xpath = "//*[@class=\"td-padding\"]")
+	    WebElement title;
+	   
+	   public void verifytitle()
+	   {
+		   if (title.getText().equals("Order confirmation"))
+		   {
+			   System.out.println("Test Case Passed: User is successfully landed to Order Confirmation page");
+		   }
+		   else
+		   {
+			   System.out.println("Test case Failed");
+		   }
+	   }
+	   
+	 
+	   
+	   
+	   
+	   
+	   
  
 
 }

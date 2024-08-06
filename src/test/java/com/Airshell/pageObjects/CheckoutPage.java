@@ -9,7 +9,7 @@ import org.openqa.selenium.support.ui.Select;
 public class CheckoutPage {
 	
 	
-	   private static final String xpath = null;
+	   
 	   //Constructor for all test cases
 	
 		WebDriver lriver;

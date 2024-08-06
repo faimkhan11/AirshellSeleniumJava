@@ -23,9 +23,10 @@ public class ProductPage
 		@FindBy(xpath = "//div[@class='col s12 section href-underline']//div[1]//div[1]//div[1]//button[1]")
 		WebElement booknowbtn ;
 		
-		public void clkbooknowbtn()
+		public void clkbooknowbtn() throws InterruptedException
 		{
 			booknowbtn.click();
+			Thread.sleep(3000);
 		}
 	
 	

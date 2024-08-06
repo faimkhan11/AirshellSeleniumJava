@@ -9,7 +9,7 @@ public class ReadConfig {
 	
 	Properties properties;
 	
-	String path = "C:\\Aotomation\\SeleniumWebDrivers\\AirshellsProject\\Configuration\\config.properties";
+	String path = "C:\\Automation_Softwares\\SeleniumWebDrivers\\AirshellsProject\\Configuration\\config.properties";
 	
 	public ReadConfig()
 	{
